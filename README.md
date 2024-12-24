@@ -3,6 +3,18 @@
 ## Descripción
 Este proyecto utiliza un enfoque a reducir el dominio del sudoku killer con diferentes restricciones las cuales estan en el archivo sudoku.py detalladas y comentadas.
 
+### Archivo `sudoku.py`
+El archivo `sudoku.py` implementa el solucionador principal del Sudoku Killer. Este solucionador utiliza técnicas avanzadas como reducción de dominio, verificación de restricciones, y estrategias de búsqueda para resolver tableros complejos de manera eficiente.
+
+#### Funcionalidades Principales
+- **Carga del Tablero:** Lee un archivo JSON con la configuración inicial del tablero, incluyendo celdas iniciales y restricciones de sumas.
+- **Reducción de Dominio:** Elimina valores no válidos con base en las reglas del Sudoku clásico y las restricciones adicionales del Sudoku Killer.
+- **Estrategias de Resolución:** Utiliza algoritmos como backtracking y forward checking para explorar soluciones posibles.
+- **Validación y Resultado:** Comprueba que la solución es válida y muestra el tablero resuelto.
+- **Funciones Adicionales:** Incluye utilidades para imprimir el tablero y registrar los pasos del proceso de resolución.
+
+Este solucionador está diseñado para abordar cualquier configuración válida de Sudoku Killer, asegurando que todas las restricciones se cumplan y produciendo una solución óptima.
+
 ## Creadores
 - Juan alejandro Salgado, Carlos grisales, Angel Mora, Santiago Rodriguez,
 
@@ -49,7 +61,7 @@ Este proyecto utiliza un enfoque a reducir el dominio del sudoku killer con dife
         35:G8,H8,I8:22
         36:H9,I9:4
 
-    En donde el primer numero representa la id posteriormente van las coordenadas de las casillas que conforman el bloque y por ultimo la suma del bloque.
+    En donde el primer numero representa la id, posteriormente van las coordenadas de las casillas que conforman el bloque y por ultimo la suma del bloque.
     Si se quiere probar el funcionamiento del sudoku se puede hacer con los tableros de ejemplo en la carpeta 'Tableros'.
 
     Ademas todos los tableros fueron sacados de la pagina: https://www.sudokumania.com.ar/sudoku/killer/
