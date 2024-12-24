@@ -71,4 +71,4 @@ Este solucionador está diseñado para abordar cualquier configuración válida 
 1. Asegúrate de tener Python instalado.
 2. Clona este repositorio en tu máquina local:
    ```bash
-   git clone <URL_DE_TU_REPOSITORIO>
+   git clone <https://github.com/NumMy0/Sudoku-killer-python>
